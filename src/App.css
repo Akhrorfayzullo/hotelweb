@@ -1,38 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  /* width: 1920px; */
+  height: 1080px;
+  flex-shrink: 0;
+  /* border: 10px solid red; */
+  background-image: url("./assets/palm-trees-at-night-258154\ 1.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  padding-left: 240px;
+  padding-right: 150px;
+  /* background: rgba(20, 39, 74, 0.5); */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headcon {
+  /* border: 10px solid orange; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 0 50px; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.innerhome {
+  display: flex;
+  gap: 90px;
+  /* border: 1px solid yellow; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homeh1 {
+  color: white;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.maintextdiv {
+  color: #fff;
+  /* border: 10px solid red; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
+  align-items: flex-start;
+  margin-top: 193px;
 }
-
-.App-link {
-  color: #61dafb;
+.welh1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.luxh1 {
+  color: #fff;
+  font-family: Adobe Garamond Pro;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 10.78px;
+}
+.hoth1 {
+  color: #fff;
+  font-family: Adobe Garamond Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 24px;
+}
+.bookh1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+.bookbtn {
+  margin-top: 108px;
+  width: 268px;
+  height: 78px;
+  flex-shrink: 0;
+  background-color: #e0b973;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+}
+.scrollh1 {
+  margin-top: 80px;
+  color: #fff;
+  margin-bottom: 20px;
 }
